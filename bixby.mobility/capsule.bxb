@@ -4,8 +4,9 @@ capsule {
   format (3)
   targets {
     target (bixby-mobile-en-US)
+    target (bixby-mobile-es-ES)
   }
-  runtime-version (4)
+  runtime-version (7)
   store-countries {
     all
   }
