@@ -1,0 +1,11 @@
+structure (WheelchairDirections) {
+  description (Concepto que representa el camino en silla de ruedas (sin transporte) de un punto a otro)
+  property (sourcePoint){
+    type (SourcePoint)
+    min (Optional) max (One)
+  }
+  property (destinationPoint){
+    type (DestinationPoint)
+    min (Optional) max
+  }
+}

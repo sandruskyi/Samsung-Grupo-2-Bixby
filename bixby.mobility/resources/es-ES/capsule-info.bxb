@@ -1,8 +1,20 @@
 capsule-info {
-  display-name (Example Name)
-  developer-name (Example Developer)
+  display-name (Bixby Accessible Mobility)
+  developer-name (Grupo2)
   description ("Example capsule description")
   dispatch-name (Example Capsule)
+  search-keywords {
+    keyword (accessibility)
+    keyword(accessible)
+    keyword(places)
+    keyword(routes)
+    keyword (location search)
+  }
   // Create and set a path for your icon asset
   // icon-asset (images/icons/example.png)
+  requested-permissions{
+    permission (device-location-access){
+      justification (Tu localización será utilizada para encontrar rutas y lugares cercanos accesibles)
+    }
+  }
 }

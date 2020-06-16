@@ -1,0 +1,26 @@
+action (GetWheelchairDirections) {
+  description (Acción que aporta el camino en silla de ruedas (sin transporte) de un punto a otro)
+  type(Constructor)
+  collect {
+    input (sourcePoint) {
+      type (SourcePoint)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: SourcePoint
+          route: geo.CurrentLocation
+        }
+      }
+    }
+    input (destinationPoint){
+      type(DestinationPoint)
+      min (Required) max (One)
+      default-select{
+        with-rule{
+          select-first
+        }
+      }
+    }
+  }
+  output (WheelchairDirections)
+}

@@ -1,12 +1,22 @@
 capsule {
-  id (bixby.mobility)
+  id (group2.accessiblemobility)
   version (0.1.0)
   format (3)
   targets {
     target (bixby-mobile-en-US)
     target (bixby-mobile-es-ES)
   }
+  capsule-imports {
+    import (viv.location) { as (location) version (1.0.39)}
+    import (viv.geo) { as (geo) version-from (location)}
+  }
+  permissions {
+    device-location-access
+  }
   runtime-version (7)
+  store-sections {
+    section (TravelAndTransportation)
+  }
   store-countries {
     all
   }

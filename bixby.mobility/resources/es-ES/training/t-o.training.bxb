@@ -1,0 +1,5 @@
+train (t-op02opjjg03vlctypzhyr7vst) {
+  utterance ([g:WheelchairDirections] Muestrame un camino)
+  plan (Y2Bk0E3KrEiq1EtMTk4tLs5MyknNzU/KzMksqdQLz0hNzUnOSMwscsksSk0uyczPK2YAAUYQAQA=)
+  last-modified (1592333976218)
+}
