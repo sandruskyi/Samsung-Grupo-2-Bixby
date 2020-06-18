@@ -1,0 +1,15 @@
+result-view {
+  match {
+    WheelchairDirections (wheelchairDirections)
+  }
+
+  message ("Este es tu camino desde tu ubicación [hasta #{value(wheelchairDirections.destinationPoint)}].")
+  
+  render {
+    if (size(wheelchairDirections) == 1) {
+      layout-match (wheelchairDirections) {
+        mode (Details)
+      }
+    }
+  }
+}

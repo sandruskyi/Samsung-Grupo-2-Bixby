@@ -4,6 +4,10 @@ structure (WheelchairDirections) {
     type (SourcePoint)
     min (Optional) max (One)
   }
+  property (retiroPoint){
+    type (RetiroPoint)
+    min (Optional) max (One)
+  }
   property (destinationPoint){
     type (DestinationPoint)
     min (Optional) max (One)

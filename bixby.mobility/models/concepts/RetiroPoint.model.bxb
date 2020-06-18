@@ -1,0 +1,5 @@
+structure (RetiroPoint) {
+  description (Retiro GeoPoint)
+  role-of (geo.GeoPoint)
+}
+

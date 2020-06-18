@@ -8,6 +8,7 @@ module.exports.function = function getWheelchairDirections (sourcePoint, destina
   
   // Funcionalidad de muestra desde el punto "Parque del Retiro": 40.415751, -3.688703 
   var response = http.getUrl(config.get('urlOpenroute') + '?api_key='+ config.get('keyOpenroute') + '&start=-3.68705,40.418332&end='+ destinationPoint.point.longitude +','+ destinationPoint.point.latitude , { format: 'json' });
+  retiroPoint = {latitude:40.418332, longitude:-3.68705};
 
   console.log(response);
   console.log(response.features);
@@ -26,6 +27,7 @@ module.exports.function = function getWheelchairDirections (sourcePoint, destina
   console.log(newCoordinates);
   return {
     sourcePoint: sourcePoint, 
+    retiroPoint : retiroPoint,
     destinationPoint: destinationPoint,
     steps: steps,
     summary : summary,
