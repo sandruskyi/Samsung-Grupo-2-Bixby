@@ -1,0 +1,4 @@
+structure (NewCoordinates) {
+  description (coordenadas geo NamedPoint)
+  role-of (geo.GeoPoint)
+}

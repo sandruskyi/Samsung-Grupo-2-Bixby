@@ -1,0 +1,3 @@
+text (Instruction) {
+  description (Instrucción: ir a la derecha, izquierda, etc)
+}

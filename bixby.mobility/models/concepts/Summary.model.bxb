@@ -1,0 +1,11 @@
+structure (Summary) {
+  description (Resumen con distancia y duración)
+  property (distance) {
+    type (Distance)
+    min (Optional) max (One)
+  }
+  property (duration){
+    type (Duration)
+    min (Optional) max (One)
+  }
+}

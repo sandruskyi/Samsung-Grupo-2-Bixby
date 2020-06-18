@@ -1,0 +1,3 @@
+integer (WayPoints) {
+  description (WayPoints. Es de la API, no importante para nosotras)
+}

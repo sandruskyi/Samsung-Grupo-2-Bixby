@@ -6,6 +6,20 @@ structure (WheelchairDirections) {
   }
   property (destinationPoint){
     type (DestinationPoint)
-    min (Optional) max
+    min (Optional) max (One)
+  }
+
+  property(steps){
+    type(Steps)
+    min (Optional) max (Many)
+  }
+
+  property (summary){
+    type(Summary)
+    min (Optional) max (Many)
+  }
+  property (newCoordinates){
+    type(NewCoordinates)
+    min (Optional) max (Many)
   }
 }

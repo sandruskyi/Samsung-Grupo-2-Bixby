@@ -1,0 +1,3 @@
+decimal (Duration) {
+  description (Duración del trayecto en segundos)
+}

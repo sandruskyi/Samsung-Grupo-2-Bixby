@@ -1,0 +1,3 @@
+integer (TypeStep) {
+  description (Tipo numérico de step propio de la API)
+}

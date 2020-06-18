@@ -1,0 +1,28 @@
+structure (Steps) {
+  description (Paso a seguir para llegar a un camino)
+  property (distance) {
+    type (Distance)
+    min (Optional) max (One)
+  }
+  property (duration) {
+    type (Duration)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (TypeStep)
+    min(Optional) max (One)
+  }
+  property (instruction) {
+    type (Instruction)
+    min (Optional) max (One)
+  }
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (way_points){
+    type(WayPoints)
+    min (Optional) max (Many)
+  }
+
+}
