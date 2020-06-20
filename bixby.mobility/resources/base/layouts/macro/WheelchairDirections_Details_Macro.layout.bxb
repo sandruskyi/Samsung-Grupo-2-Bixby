@@ -1,0 +1,86 @@
+layout-macro-def(WheelchairDirections_Details_Macro) {
+  params {
+    param (wheelchairDirections) {
+      type (WheelchairDirections)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        map-card{
+          aspect-ratio (1:1)
+          title-area{
+            slot1{
+              single-line{
+                text{value ("Chincheta Verde: Tu posición")}
+              }
+            }
+            slot2{
+              single-line{
+                text{value("Chincheta Roja: Destino")}
+              }
+            }
+          }
+          markers{
+            marker{
+              geo(wheelchairDirections.retiroPoint)
+              icon("/images/icons/green-marker.png")
+              width (15)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+            marker{
+              geo(wheelchairDirections.destinationPoint.point)
+              icon("/images/icons/red-marker.png")
+              width (15)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+        partitioned {
+          content {
+            for-each (wheelchairDirections.steps){
+              as(step){
+                title-area {
+                  slot1 {
+                    text {
+                      value {
+                        if ("size(step.instruction)>0") {
+                          template ("En  #{value (step.distance)} metros #{value (step.instruction)} (#{value (step.duration)} sec)")
+                          {speech(" #value(step.instruction)")}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            //for-each (wheelchairDirections.steps){
+            //as(step){
+              //  cell-area {
+                //  slot2 {
+                  //  content {
+                    //  primary {
+                      //  if ("(size(wheelchairDirections.steps.name)>0) && ((value(wheelchairDirections.steps.name))!=('-'))") {
+                        //  template ("#{value (wheelchairDirections.steps.name)}")
+                        //}
+                      //}
+                    //}
+                  //}
+                //}
+              //}
+            //}
+          }
+        }
+      }
+    }
+  }
+}

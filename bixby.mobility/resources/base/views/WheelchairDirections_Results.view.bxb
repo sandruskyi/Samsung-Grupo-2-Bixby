@@ -7,9 +7,21 @@ result-view {
   
   render {
     if (size(wheelchairDirections) == 1) {
-      layout-match (wheelchairDirections) {
-        mode (Details)
+      layout-macro (WheelchairDirections_Details_Macro) {
+        param (wheelchairDirections) {
+          expression (wheelchairDirections)
+        }
       }
-    }
+      //list-of (wheelchairDirections) {
+        //where-each (wheelchairDirections.steps) {
+      //layout-macro (WheelchairDirections_Summary_Macro) {
+        //param (wheelchairDirections) {
+          //expression (wheelchairDirections)
+        //}
+      //}
+      
+        //}
+      //}
+    } 
   }
 }

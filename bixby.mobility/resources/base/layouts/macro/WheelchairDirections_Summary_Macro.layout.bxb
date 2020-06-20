@@ -1,0 +1,49 @@
+layout-macro-def(WheelchairDirections_Summary_Macro) {
+  params {
+    param (wheelchairDirections) {
+      type (WheelchairDirections)
+      min (Required)
+      max (One)
+    }
+  }
+
+
+  content {
+    section {
+      content {
+        compound-card {
+          content {
+            title-area {
+              slot1 {
+                text {
+                  value {
+                    if ("size(wheelchairDirections.steps.instruction)>0") {
+                      template ("#{value (wheelchairDirections.steps.instruction)}")
+                      {speech(" #value(wheelchairDirections.steps.instruction)")}
+                    }
+                  }
+                }
+              }
+            }
+            for-each (wheelchairDirections.steps){
+              as(step){
+                cell-area {
+                  slot2 {
+                    content {
+                      primary {
+                        if ("(size(wheelchairDirections.steps.name)>0) && ((value(wheelchairDirections.steps.name))!=('-'))") {
+                          template ("#{value (wheelchairDirections.steps.name)}")
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            
+          }
+        }
+      }
+    }
+  }
+}
