@@ -28,7 +28,7 @@ layout-macro-def(WheelchairDirections_Details_Macro) {
             marker{
               geo(wheelchairDirections.retiroPoint)
               icon("/images/icons/green-marker.png")
-              width (15)
+              width (20)
               height (20)
               anchor-x (5)
               anchor-y (15)
@@ -37,11 +37,24 @@ layout-macro-def(WheelchairDirections_Details_Macro) {
             marker{
               geo(wheelchairDirections.destinationPoint.point)
               icon("/images/icons/red-marker.png")
-              width (15)
+              width (20)
               height (20)
               anchor-x (5)
               anchor-y (15)
               rotation (0)
+            }
+            for-each (wheelchairDirections.newCoordinates){
+              as(newCoordinate){
+                marker{
+                geo(newCoordinate)
+                icon("/images/icons/punto-rojo.png")
+                width (5)
+                height (5)
+                anchor-x (5)
+                anchor-y (5)
+                rotation (0)
+            }
+              }
             }
           }
         }
