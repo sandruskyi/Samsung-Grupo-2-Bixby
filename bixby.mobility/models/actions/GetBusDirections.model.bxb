@@ -1,0 +1,26 @@
+action (GetBusDirections) {
+  description (Acción que aporta el camino de manera accesible en autobús)
+  type(Constructor)
+  collect {
+    input (sourcePoint) {
+      type (SourcePoint)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: SourcePoint
+          route: geo.CurrentLocation
+        }
+      }
+    }
+    input (destinationPoint){
+      type(DestinationPoint)
+      min (Required) max (One)
+      default-select{
+        with-rule{
+          select-first
+        }
+      }
+    }
+  }
+  output (BusDirections)
+}

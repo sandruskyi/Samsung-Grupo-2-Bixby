@@ -1,0 +1,11 @@
+structure (BusDirections) {
+  description (Concepto que representa el camino de manera accesible en autobús)
+  property (sourcePoint){
+    type (SourcePoint)
+    min (Optional) max (One)
+  }
+  property (destinationPoint){
+    type (DestinationPoint)
+    min (Optional) max (One)
+  }
+}

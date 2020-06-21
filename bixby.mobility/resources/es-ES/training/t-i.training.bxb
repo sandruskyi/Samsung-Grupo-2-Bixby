@@ -1,0 +1,5 @@
+train (t-iqcpiszxudv148h7f9syk3b4i) {
+  utterance ([g:BusDirections] Muestrame un camino en autobús)
+  plan (Y2BkUE8vyi8tMNJLTE5OLS7OTMpJzc1PyszJLKnUcyotdsksSk0uyczPK2YAAUYQAQA=)
+  last-modified (1592702754029)
+}

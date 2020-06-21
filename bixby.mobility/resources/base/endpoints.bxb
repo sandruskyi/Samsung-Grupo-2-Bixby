@@ -6,6 +6,11 @@ endpoints {
       local-endpoint (GetWheelchairDirections.js)
     }
 
+    action-endpoint (GetBusDirections) {
+      accepted-inputs (sourcePoint, destinationPoint)
+      local-endpoint (GetBusDirections.js)
+    }
+
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {
