@@ -1,4 +1,4 @@
 structure (DestinationPoint) {
-  description (Destination geo NamedPoint)
+  description (Destination geo NamedPoint -- WheelchairDirections -- BusDirections)
   role-of (geo.NamedPoint)
 }

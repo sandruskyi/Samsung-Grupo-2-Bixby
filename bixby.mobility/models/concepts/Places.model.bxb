@@ -1,0 +1,20 @@
+structure (Places) {
+  description (Concepto que aporta los lugares accesibles cercanos desde un lugar )
+  property (sourcePoint){
+    type (SourcePoint)
+    min (Required) max (Many)
+  }
+  property (type){
+    type (TypePlaces)
+    min (Optional) max (Many)
+  }
+  property (geometry){
+    type (GeometryPlaces)
+    min (Optional) max (Many)
+  }
+
+  property(properties){
+    type(PropertiesPlaces)
+    min (Optional) max (Many)
+  }
+}

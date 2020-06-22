@@ -1,4 +1,4 @@
 structure (NewCoordinates) {
-  description (coordenadas geo NamedPoint)
+  description (coordenadas geo NamedPoint -- WheelchairDirections)
   role-of (geo.GeoPoint)
 }

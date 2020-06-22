@@ -1,3 +1,3 @@
 integer (TypeStep) {
-  description (Tipo numérico de step propio de la API)
+  description (Tipo numérico de step propio de la API -- Steps)
 }

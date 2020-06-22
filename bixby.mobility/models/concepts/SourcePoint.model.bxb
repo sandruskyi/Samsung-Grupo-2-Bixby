@@ -1,4 +1,4 @@
 structure (SourcePoint) {
-  description (Source geo NamedPoint)
+  description (Source geo NamedPoint -- WheelchairDirections -- BusDirections-- Places)
   role-of (geo.NamedPoint)
 }

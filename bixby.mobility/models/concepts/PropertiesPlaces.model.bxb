@@ -1,0 +1,44 @@
+structure (PropertiesPlaces) {
+  description (Propiedades de cada feature -- Places)
+  property (sourceId){
+    type (SourceIdPlaces)
+    min (Required) max (Many)
+  }
+  property (originalId){
+    type (OriginalIdPlaces)
+    min (Optional) max (Many)
+  }
+  property (infoPageUrl){
+    type (InfoPageUrlPlaces)
+    min (Optional) max (Many)
+  }
+
+  property(category){
+    type(CategoryPlaces)
+    min (Optional) max (Many)
+  }
+  property(name){
+    type(NamePlaces)
+    min (Optional) max (Many)
+  }
+  property(address){
+    type(AddressPlaces)
+    min (Optional) max (Many)
+  }
+  property(accessibility){
+    type(AccessibilityPlaces)
+    min (Optional) max (Many)
+  }
+  property(sourceImportId){
+    type(SourceImportIdPlaces)
+    min (Optional) max (Many)
+  }
+  property(_id){
+    type(IdPlaces)
+    min (Optional) max (Many)
+  }
+  property(distance){
+    type(DistancePlaces)
+    min (Optional) max (Many)
+  }
+}

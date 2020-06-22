@@ -1,0 +1,3 @@
+boolean (WheelchairPlaces) {
+  description (WheelchairPlaces -- AccessibleWithPlaces)
+}

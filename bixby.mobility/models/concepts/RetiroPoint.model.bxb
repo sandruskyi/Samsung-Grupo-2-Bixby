@@ -1,5 +1,5 @@
 structure (RetiroPoint) {
-  description (Retiro GeoPoint)
+  description (Retiro GeoPoint -- WheelchairDirections)
   role-of (geo.GeoPoint)
 }
 

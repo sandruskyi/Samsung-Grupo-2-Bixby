@@ -1,0 +1,18 @@
+action (GetPlaces) {
+  description (Acción que aporta los lugares accesibles cercanos desde un lugar)
+  type(Constructor)
+  collect {
+    input (sourcePoint) {
+      type (SourcePoint)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: SourcePoint
+          route: geo.CurrentLocation
+        }
+      }
+    }
+    
+  }
+  output (Places)
+}

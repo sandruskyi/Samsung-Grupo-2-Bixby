@@ -1,5 +1,5 @@
 structure (Summary) {
-  description (Resumen con distancia y duración)
+  description (Resumen con distancia y duración - WheelchairDirections)
   property (distance) {
     type (Distance)
     min (Optional) max (One)

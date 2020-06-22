@@ -1,0 +1,4 @@
+structure (CoordinatesPlaces) {
+  description (Coordinates geoPoint -- GeometryPlaces)
+  role-of (geo.GeoPoint)
+}

@@ -1,5 +1,5 @@
 structure (Steps) {
-  description (Paso a seguir para llegar a un camino)
+  description (Paso a seguir para llegar a un camino - WheelchairDirections)
   property (distance) {
     type (Distance)
     min (Required) max (One)

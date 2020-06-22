@@ -1,0 +1,20 @@
+structure (AddressPlaces) {
+  description (AddressPlaces -- PropertiesPlaces)
+  property (street) {
+    type (StreetPlaces)
+    min (Optional) max (One)
+  }
+  property (housenumber) {
+    type (HousenumberPlaces)
+    min (Optional) max (One)
+  }
+  property (city) {
+    type (CityPlaces)
+    min (Optional) max (One)
+  }
+  property (zipcode) {
+    type (ZipcodePlaces)
+    min (Optional) max (One)
+  }
+
+}

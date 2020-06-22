@@ -1,0 +1,7 @@
+structure (AccessibleWithPlaces) {
+  description (AccessibleWithPlaces -- AccesibilityPlaces)
+  property (wheelchair) {
+    type (WheelchairPlaces)
+    min (Optional) max (One)
+  }
+}

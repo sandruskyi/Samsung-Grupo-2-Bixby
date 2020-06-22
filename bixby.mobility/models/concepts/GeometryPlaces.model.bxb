@@ -1,0 +1,11 @@
+structure (GeometryPlaces) {
+  description (Geometria de cada lugar -- Places)
+  property (type) {
+    type (TypePlaces)
+    min (Optional) max (One)
+  }
+  property (coordinates){
+    type (CoordinatesPlaces)
+    min (Optional) max (One)
+  }
+}

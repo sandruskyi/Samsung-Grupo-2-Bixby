@@ -1,0 +1,7 @@
+structure (AreasPlaces) {
+  description (AreasPlaces -- AccessibilityPlaces)
+  property (restroom) {
+    type (AccessibilityPlaces)
+    min (Optional) max (Many)
+  }
+}

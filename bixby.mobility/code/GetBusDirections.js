@@ -32,8 +32,10 @@ module.exports.function = function getBusDirections (sourcePoint, destinationPoi
   var settingsTravelplan = {
     "url": config.get('EMTtravelplan'),
     "method": "POST",
-    "timeout": 0,
-    "params" : {
+    "headers": {
+      "accessToken": "952d3a27-7d57-4374-a5f2-a5b843b3e0e1",
+    },
+    "data" : {
       "routeType":"P",
       "coordinateXFrom":-3.65809,
       "coordinateYFrom":40.416234,
@@ -45,9 +47,7 @@ module.exports.function = function getBusDirections (sourcePoint, destinationPoi
       "itinerary":"true",
       "allowBus":"true",
       "allowBike":"false",
-    },
-    "headers": {
-      "accessToken": cadena[1],
+      "Content-Type" : "application/json",
     },
   };
   var responseTravelplan = http.postUrl(config.get('EMTtravelplan'), settingsTravelplan);

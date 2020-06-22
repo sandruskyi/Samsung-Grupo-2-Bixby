@@ -1,0 +1,19 @@
+structure (AccessibilityPlaces) {
+  description (AccessibilityPlaces -- PropertiesPlaces)
+  property (accessibleWith) {
+    type (AccessibleWithPlaces)
+    min (Optional) max (One)
+  }
+  property (partiallyAccessibleWith) {
+    type (PartiallyAccessibleWithPlaces)
+    min (Optional) max (One)
+  }
+
+  property (areas) {
+    type (AreasPlaces)
+    min (Optional) max (Many)
+  }
+
+
+
+}
