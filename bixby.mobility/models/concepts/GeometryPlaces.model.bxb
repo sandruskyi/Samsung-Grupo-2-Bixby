@@ -6,6 +6,6 @@ structure (GeometryPlaces) {
   }
   property (coordinates){
     type (CoordinatesPlaces)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
 }

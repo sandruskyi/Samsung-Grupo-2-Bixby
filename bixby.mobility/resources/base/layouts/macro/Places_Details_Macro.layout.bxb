@@ -1,0 +1,31 @@
+layout-macro-def(Places_Details_Macro) {
+  params {
+    param (places1) {
+      type (Places1)
+      min (Optional)
+      max (Many)
+    }
+  }
+
+  
+  content {
+    compound-card {  
+      content {
+        title-area {
+          slot1 {
+            text {
+              value {
+                //if ("size(wheelchairDirections.steps.instruction)>0") {
+                  //template ("#{value (wheelchairDirections.steps.instruction)}")
+                template("Hola")
+                  //{speech(" #value(wheelchairDirections.steps.instruction)")}
+                //}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+   
+}

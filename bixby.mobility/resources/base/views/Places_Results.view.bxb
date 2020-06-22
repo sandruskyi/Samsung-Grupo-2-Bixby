@@ -1,0 +1,21 @@
+result-view {
+  match {
+    Places1 (places1)
+  }
+
+  message ("Estos son todos los lugares accesibles cercanos a ti.")
+  
+  render {
+    if (size(places1.features2) >= 0) { 
+      list-of(places1.features2){
+        where-each (places1.features2){
+          layout-macro (Places_Details_Macro) {
+            param (places1) {
+              expression (places1)
+            }
+          }
+        }
+      }
+    } 
+  }
+}

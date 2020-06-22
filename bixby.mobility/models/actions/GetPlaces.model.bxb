@@ -12,7 +12,7 @@ action (GetPlaces) {
         }
       }
     }
-    
+     
   }
-  output (Places)
+  output (Places1)
 }
