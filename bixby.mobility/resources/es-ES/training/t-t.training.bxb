@@ -1,4 +1,5 @@
 train (t-tpm92ivtw6955v2a16r6v4rrh) {
-  utterance (Llevame a Sol)
-  last-modified (1592932412791)
+  utterance ("[g:GetWheelchairDirections] Llevame a {[g:DestinationPoint] (Sol)[v:geo.SearchTerm]}")
+  plan (dYy9CsJAEIRXTdRaKx/AxuJA30AI2IkQwfo8l7uFJCv3E7Hx2b0zik2yze7MfjMwB6Eth/tOSKXQObpWWPOVKvJPcTGIlTKSbEEWlSduHGyH+QP63shmOFKg89TIxJ2YGg/rYbbkYBV22KKlVmhkcZQ13jpv+fP2wbMLWsduWPWYr4dBi/+OEqVV5oy2hhmMYAwTyCCHaVQQdXKSzuOVJvtuiFz6fTJv)
+  last-modified (1592934966230)
 }
