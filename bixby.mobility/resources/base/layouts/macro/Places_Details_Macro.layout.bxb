@@ -1,31 +1,85 @@
 layout-macro-def(Places_Details_Macro) {
   params {
-    param (places1) {
-      type (Places1)
+    param (places) {
+      type (Places2)
       min (Optional)
       max (Many)
     }
   }
-
-  
-  content {
-    compound-card {  
+  content{
+    compound-card {
       content {
-        title-area {
-          slot1 {
-            text {
-              value {
-                //if ("size(wheelchairDirections.steps.instruction)>0") {
-                  //template ("#{value (wheelchairDirections.steps.instruction)}")
-                template("Hola")
-                  //{speech(" #value(wheelchairDirections.steps.instruction)")}
-                //}
-              }
-            }
+        if ("size(places.properties.name)>0") {
+          paragraph {
+            style(Title_L)
+              value("#{value (places.properties.name)}")
+          }
+        }else{
+          paragraph {
+            style(Detail_L)
+              value("No hay información del nombre")
           }
         }
+        if ("size(places.properties.accessibility.accessibleWith.wheelchair)>0") {
+          if(places.properties.accessibility.accessibleWith.wheelchair){
+            paragraph {
+              style(Title_S)
+              value("Accesible completamente ")
+            }
+          }else{
+            paragraph {
+              style(Detail_L)
+              value("No accesible completamente ")
+            }
+          } 
+        }else{
+          paragraph {
+            style(Detail_L)
+              value(" No hay información sobre si es accesible completamente")
+          }
+        }
+
+        if ("size(places.properties.accessibility.partiallyAccessibleWith.wheelchair)>0") {
+         if(places.properties.accessibility.partiallyAccessibleWith.wheelchair){
+            paragraph {
+              style(Title_S)
+              value("Accesible parcialmente ")
+            }
+          }else{
+            paragraph {
+              style(Detail_L)
+              value("No accesible parcialmente ")
+            }
+          } 
+        }else{
+          paragraph {
+            style(Detail_L)
+              value(" No hay información sobre si es accesible parcialmente")
+          }
+        }
+
+        paragraph {
+          style(Detail_M)
+          value("Categoría (en inglés): #{value(places.properties.category)}")
+        }
+        paragraph {
+          style(Detail_M_Soft)
+          value("Distancia: #{value(places.properties.distance)}")
+        }
       }
+      //on-click {
+        //intent {
+          //goal {
+            //SampleGoal
+          //}
+        //}
+      //}
     }
   }
-   
 }
+                //if ("size(wheelchairDirections.steps.instruction)>0") {
+                  //template ("#{value (wheelchairDirections.steps.instruction)}")
+                
+                  //{speech(" #value(wheelchairDirections.steps.instruction)")}
+                //}
+              

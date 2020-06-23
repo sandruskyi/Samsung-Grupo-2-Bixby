@@ -8,10 +8,10 @@ result-view {
   render {
     if (size(places1.features2) >= 0) { 
       list-of(places1.features2){
-        where-each (places1.features2){
+        where-each (features2){
           layout-macro (Places_Details_Macro) {
-            param (places1) {
-              expression (places1)
+            param (places) {
+              expression (features2)
             }
           }
         }
