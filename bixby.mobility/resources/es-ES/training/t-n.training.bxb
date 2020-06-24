@@ -1,7 +1,8 @@
 train (t-nxqo1hnopof0cszl9d3et8k9b) {
   utterance ("[g:GetWheelchairDirections] ¿Como puedo llegar a la calle {[g:DestinationPoint] (Huertas)[v:geo.SearchTerm]}?")
   plan (dYy9CsJAEIRXTdRaKx/AxuJA30AI2IkQwfo8l7uFJCv3E7Hx2b0zik2yze7MfjMwB6Eth/tOSKXQObpWWPOVKvJPcTGIlTKSbEEWlSduHGyH+QP63shmOFKg89TIxJ2YGg/rYbbkYBV22KKlVmhkcZQ13jpv+fP2wbMLWsduWPWYr4dBi/+OEqVV5oy2hhmMYAwTyCCHaVQQdXKSzuOVJvtuiFz6fTJv)
-  last-modified (1593033895339)
+  enabled (false)
+  last-modified (1593039605078)
 }
 train (t-ny8t4sl9ltud5o5lug91ko1o8) {
   utterance ([g:Places1] Muestrame sitios cercanos accesibles)

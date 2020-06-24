@@ -1,5 +1,11 @@
+train (t-c0hdmjgikqjjyi4cdg41iz8gd) {
+  utterance ("[g:GetBusDirections] Cómo voy en autobús a {[g:DestinationPoint] (Plaza Castilla)[v:geo.SearchTerm]}")
+  plan (jYxNCsJADEajtupaVx5ABBez6A2UgjsR6gWmY5gG2kbmp+LGsztjFTcWzCb5Xl4Cc9how/6aCakUWktljQ2XVJO7i723ORlUjri1sB0WD+j+dnO0jloZvRNT62A97BbsjcJeW3TUCY0sjrLBS8+WH7bzjq3XOvyG1Q/4uFVo8PujQGlUdUbTwAxGMIYJJJDCNCQIOZKY0zDFSt4dghd3r5sn)
+  last-modified (1593039799426)
+}
 train (t-cjmrs3amp2bcls0zhhtsd7mfz) {
   utterance ("[g:GetWheelchairDirections] Cual es la mejor forma de llegar a {[g:DestinationPoint] (Goya)[v:geo.SearchTerm]}")
   plan (dYy9CsJAEIRXTdRaKx/AxuJA30AI2IkQwfo8l7uFJCv3E7Hx2b0zik2yze7MfjMwB6Eth/tOSKXQObpWWPOVKvJPcTGIlTKSbEEWlSduHGyH+QP63shmOFKg89TIxJ2YGg/rYbbkYBV22KKlVmhkcZQ13jpv+fP2wbMLWsduWPWYr4dBi/+OEqVV5oy2hhmMYAwTyCCHaVQQdXKSzuOVJvtuiFz6fTJv)
-  last-modified (1593034690941)
+  enabled (false)
+  last-modified (1593039599955)
 }
