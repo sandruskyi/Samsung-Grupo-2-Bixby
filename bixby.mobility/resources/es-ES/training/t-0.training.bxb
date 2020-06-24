@@ -1,0 +1,10 @@
+train (t-00n6rygxbkfema8yitruqzg4z) {
+  utterance ("[g:Places1] ¿Hay algún {[g:SourcePoint] (hotel)[v:geo.SearchTerm]} cercano para ir en silla de ruedas que esté bien?")
+  plan (dYzLCsIwEEWvbdW9rlyKuA3UP3DlTgr1B9I4pIHESB4VN367kfjY2IEZ7hwOF3OspbPxumNcCPJedZqM7ZRW4c4azROrsRlXDhSyhe241NroBDVWXQIWgxqYJMuO3NA5s+WH7WOwPkpJPmD1Bz5uPTn6dbTEnehP5AxmmKBAiQrTlPH9qpTwvq8p0xbZfgI=)
+  last-modified (1593037624061)
+}
+train (t-0pl533n4firm2f2a4nkdbxte1) {
+  utterance ("[g:Places1] Llévame al {[g:SourcePoint] (hospital Niño Jesus)[v:geo.SearchTerm]} en silla de ruedas")
+  plan (dYzLCsIwEEWvbdW9rlyKuA3UP3DlTgr1B9I4pIHESB4VN367kfjY2IEZ7hwOF3OspbPxumNcCPJedZqM7ZRW4c4azROrsRlXDhSyhe241NroBDVWXQIWgxqYJMuO3NA5s+WH7WOwPkpJPmD1Bz5uPTn6dbTEnehP5AxmmKBAiQrTlPH9qpTwvq8p0xbZfgI=)
+  last-modified (1593038101029)
+}

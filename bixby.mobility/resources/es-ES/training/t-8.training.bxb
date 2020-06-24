@@ -1,0 +1,5 @@
+train (t-8nogakwfw8tw9jxx4z85pz467) {
+  utterance ("[g:Places1] Llévame al {[g:SourcePoint] (hospital)[v:geo.SearchTerm]} más cercano de aquí")
+  plan (dYzLCsIwEEWvbdW9rlyKuA3UP3DlTgr1B9I4pIHESB4VN367kfjY2IEZ7hwOF3OspbPxumNcCPJedZqM7ZRW4c4azROrsRlXDhSyhe241NroBDVWXQIWgxqYJMuO3NA5s+WH7WOwPkpJPmD1Bz5uPTn6dbTEnehP5AxmmKBAiQrTlPH9qpTwvq8p0xbZfgI=)
+  last-modified (1593037866941)
+}
