@@ -1,5 +1,5 @@
-train (t-1p13dm28y4vqbbs0vg98ojt80) {
-  utterance ("[g:Places1] Necesito un {[g:SourcePoint] (WC)[v:geo.SearchTerm]} adaptado")
+train (t-9acdvpnkyd9y7gmeq1ya4x1x9) {
+  utterance ("[g:Places1] ¿Hay algun {[g:SourcePoint] (bar)[v:geo.SearchTerm]} cercano accesible?")
   plan (dYzLCsIwEEWvbdW9rlyKuA3UP3DlTgr1B9I4pIHESB4VN367kfjY2IEZ7hwOF3OspbPxumNcCPJedZqM7ZRW4c4azROrsRlXDhSyhe241NroBDVWXQIWgxqYJMuO3NA5s+WH7WOwPkpJPmD1Bz5uPTn6dbTEnehP5AxmmKBAiQrTlPH9qpTwvq8p0xbZfgI=)
-  last-modified (1593036600902)
+  last-modified (1593036501369)
 }
