@@ -1,0 +1,5 @@
+train (t-wrrugv2ychv11dwcikuz8yfv3) {
+  utterance ("[g:GetWheelchairDirections] Dime como ir a la calle {[g:DestinationPoint] (Alcala)[v:geo.SearchTerm]}")
+  plan (dYy9CsJAEIRXTdRaKx/AxuJA30AI2IkQwfo8l7uFJCv3E7Hx2b0zik2yze7MfjMwB6Eth/tOSKXQObpWWPOVKvJPcTGIlTKSbEEWlSduHGyH+QP63shmOFKg89TIxJ2YGg/rYbbkYBV22KKlVmhkcZQ13jpv+fP2wbMLWsduWPWYr4dBi/+OEqVV5oy2hhmMYAwTyCCHaVQQdXKSzuOVJvtuiFz6fTJv)
+  last-modified (1593034356854)
+}

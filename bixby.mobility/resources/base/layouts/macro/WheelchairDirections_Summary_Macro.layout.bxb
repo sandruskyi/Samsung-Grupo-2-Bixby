@@ -19,7 +19,7 @@ layout-macro-def(WheelchairDirections_Summary_Macro) {
                   value {
                     if ("size(wheelchairDirections.steps.instruction)>0") {
                       template ("#{value (wheelchairDirections.steps.instruction)}")
-                      {speech(" #value(wheelchairDirections.steps.instruction)")}
+                      {speech(" #{value(wheelchairDirections.steps.instruction)}")}
                     }
                   }
                 }

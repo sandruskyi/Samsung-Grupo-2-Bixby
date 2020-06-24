@@ -1,3 +1,8 @@
+train (t-t4o46ig5rc3l20s26rrnzthts) {
+  utterance ("[g:GetWheelchairDirections] Por donde voy para llegar a la calle {[g:DestinationPoint] (Ibiza)[v:geo.SearchTerm]}")
+  plan (dYy9CsJAEIRXTdRaKx/AxuJA30AI2IkQwfo8l7uFJCv3E7Hx2b0zik2yze7MfjMwB6Eth/tOSKXQObpWWPOVKvJPcTGIlTKSbEEWlSduHGyH+QP63shmOFKg89TIxJ2YGg/rYbbkYBV22KKlVmhkcZQ13jpv+fP2wbMLWsduWPWYr4dBi/+OEqVV5oy2hhmMYAwTyCCHaVQQdXKSzuOVJvtuiFz6fTJv)
+  last-modified (1593034775417)
+}
 train (t-tpm92ivtw6955v2a16r6v4rrh) {
   utterance ("[g:GetWheelchairDirections] Llevame a {[g:DestinationPoint] (Sol)[v:geo.SearchTerm]}")
   plan (dYy9CsJAEIRXTdRaKx/AxuJA30AI2IkQwfo8l7uFJCv3E7Hx2b0zik2yze7MfjMwB6Eth/tOSKXQObpWWPOVKvJPcTGIlTKSbEEWlSduHGyH+QP63shmOFKg89TIxJ2YGg/rYbbkYBV22KKlVmhkcZQ13jpv+fP2wbMLWsduWPWYr4dBi/+OEqVV5oy2hhmMYAwTyCCHaVQQdXKSzuOVJvtuiFz6fTJv)
